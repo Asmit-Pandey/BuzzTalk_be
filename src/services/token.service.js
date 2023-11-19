@@ -1,4 +1,3 @@
-
 import { sign, verify } from "../utils/token.util.js";
 
 export const generateToken = async (payload, expiresIn, secret) => {
